@@ -18,7 +18,7 @@
             // Feladat 2:
             // Képernyőre kiíratni a-tól z-ig a betűket egymás mellé
 
-            for (byte b = 97; b <= 122; b++)
+            for (byte b = 97; b <= 122; b += 1)
             {
                 Console.Write((char)b);
             }    
