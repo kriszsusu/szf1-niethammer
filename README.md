@@ -1,8 +1,8 @@
 <div id="user-content-toc">
   <ul align="center">
     <summary>
-      <h1>SZF1 - Niethammer Zoltán</h1>
-      <p>These are the projects that we've made in C#, with Zoltán Niethammer.</p>
+      <h1>SZF1 - Asztali alkalmazások fejlesztése (Niethammer Zoltán)</h1>
+      <p>Ezeket a projekteket készítettük Niethammer Zoltán óráin.</p>
     </summary>
   </ul>
 </div>
