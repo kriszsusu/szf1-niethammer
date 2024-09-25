@@ -1,0 +1,14 @@
+D:\baliando\Gyak01\Gyak01\bin\Debug\net8.0\Gyak01.exe
+D:\baliando\Gyak01\Gyak01\bin\Debug\net8.0\Gyak01.deps.json
+D:\baliando\Gyak01\Gyak01\bin\Debug\net8.0\Gyak01.runtimeconfig.json
+D:\baliando\Gyak01\Gyak01\bin\Debug\net8.0\Gyak01.dll
+D:\baliando\Gyak01\Gyak01\bin\Debug\net8.0\Gyak01.pdb
+D:\baliando\Gyak01\Gyak01\obj\Debug\net8.0\Gyak01.GeneratedMSBuildEditorConfig.editorconfig
+D:\baliando\Gyak01\Gyak01\obj\Debug\net8.0\Gyak01.AssemblyInfoInputs.cache
+D:\baliando\Gyak01\Gyak01\obj\Debug\net8.0\Gyak01.AssemblyInfo.cs
+D:\baliando\Gyak01\Gyak01\obj\Debug\net8.0\Gyak01.csproj.CoreCompileInputs.cache
+D:\baliando\Gyak01\Gyak01\obj\Debug\net8.0\Gyak01.dll
+D:\baliando\Gyak01\Gyak01\obj\Debug\net8.0\refint\Gyak01.dll
+D:\baliando\Gyak01\Gyak01\obj\Debug\net8.0\Gyak01.pdb
+D:\baliando\Gyak01\Gyak01\obj\Debug\net8.0\Gyak01.genruntimeconfig.cache
+D:\baliando\Gyak01\Gyak01\obj\Debug\net8.0\ref\Gyak01.dll
