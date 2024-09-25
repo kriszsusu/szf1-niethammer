@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+
             int db = 125;
             
             double egy_db_ara = 230.5;
@@ -26,6 +27,10 @@
             Console.WriteLine($"Karakter: {betu}");
 
             string szoveg = "Ez a hosszú szöveg";
+
+            string w = "18";
+            int w2 = Convert.ToInt32(w);
+
         }
     }
 }
