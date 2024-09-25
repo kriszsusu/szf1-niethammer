@@ -1,0 +1,14 @@
+D:\baliando\Feladat1\Feladat1\bin\Debug\net8.0\Feladat1.exe
+D:\baliando\Feladat1\Feladat1\bin\Debug\net8.0\Feladat1.deps.json
+D:\baliando\Feladat1\Feladat1\bin\Debug\net8.0\Feladat1.runtimeconfig.json
+D:\baliando\Feladat1\Feladat1\bin\Debug\net8.0\Feladat1.dll
+D:\baliando\Feladat1\Feladat1\bin\Debug\net8.0\Feladat1.pdb
+D:\baliando\Feladat1\Feladat1\obj\Debug\net8.0\Feladat1.GeneratedMSBuildEditorConfig.editorconfig
+D:\baliando\Feladat1\Feladat1\obj\Debug\net8.0\Feladat1.AssemblyInfoInputs.cache
+D:\baliando\Feladat1\Feladat1\obj\Debug\net8.0\Feladat1.AssemblyInfo.cs
+D:\baliando\Feladat1\Feladat1\obj\Debug\net8.0\Feladat1.csproj.CoreCompileInputs.cache
+D:\baliando\Feladat1\Feladat1\obj\Debug\net8.0\Feladat1.dll
+D:\baliando\Feladat1\Feladat1\obj\Debug\net8.0\refint\Feladat1.dll
+D:\baliando\Feladat1\Feladat1\obj\Debug\net8.0\Feladat1.pdb
+D:\baliando\Feladat1\Feladat1\obj\Debug\net8.0\Feladat1.genruntimeconfig.cache
+D:\baliando\Feladat1\Feladat1\obj\Debug\net8.0\ref\Feladat1.dll
