@@ -1,0 +1,14 @@
+D:\baliando\Konvertalas_01\Konvertalas_01\bin\Debug\net8.0\Konvertalas_01.exe
+D:\baliando\Konvertalas_01\Konvertalas_01\bin\Debug\net8.0\Konvertalas_01.deps.json
+D:\baliando\Konvertalas_01\Konvertalas_01\bin\Debug\net8.0\Konvertalas_01.runtimeconfig.json
+D:\baliando\Konvertalas_01\Konvertalas_01\bin\Debug\net8.0\Konvertalas_01.dll
+D:\baliando\Konvertalas_01\Konvertalas_01\bin\Debug\net8.0\Konvertalas_01.pdb
+D:\baliando\Konvertalas_01\Konvertalas_01\obj\Debug\net8.0\Konvertalas_01.GeneratedMSBuildEditorConfig.editorconfig
+D:\baliando\Konvertalas_01\Konvertalas_01\obj\Debug\net8.0\Konvertalas_01.AssemblyInfoInputs.cache
+D:\baliando\Konvertalas_01\Konvertalas_01\obj\Debug\net8.0\Konvertalas_01.AssemblyInfo.cs
+D:\baliando\Konvertalas_01\Konvertalas_01\obj\Debug\net8.0\Konvertalas_01.csproj.CoreCompileInputs.cache
+D:\baliando\Konvertalas_01\Konvertalas_01\obj\Debug\net8.0\Konvertalas_01.dll
+D:\baliando\Konvertalas_01\Konvertalas_01\obj\Debug\net8.0\refint\Konvertalas_01.dll
+D:\baliando\Konvertalas_01\Konvertalas_01\obj\Debug\net8.0\Konvertalas_01.pdb
+D:\baliando\Konvertalas_01\Konvertalas_01\obj\Debug\net8.0\Konvertalas_01.genruntimeconfig.cache
+D:\baliando\Konvertalas_01\Konvertalas_01\obj\Debug\net8.0\ref\Konvertalas_01.dll
