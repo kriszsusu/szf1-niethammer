@@ -1,0 +1,14 @@
+D:\baliando\Dolgozat_Valtozok\Dolgozat_Valtozok\bin\Debug\net8.0\Dolgozat_Valtozok.exe
+D:\baliando\Dolgozat_Valtozok\Dolgozat_Valtozok\bin\Debug\net8.0\Dolgozat_Valtozok.deps.json
+D:\baliando\Dolgozat_Valtozok\Dolgozat_Valtozok\bin\Debug\net8.0\Dolgozat_Valtozok.runtimeconfig.json
+D:\baliando\Dolgozat_Valtozok\Dolgozat_Valtozok\bin\Debug\net8.0\Dolgozat_Valtozok.dll
+D:\baliando\Dolgozat_Valtozok\Dolgozat_Valtozok\bin\Debug\net8.0\Dolgozat_Valtozok.pdb
+D:\baliando\Dolgozat_Valtozok\Dolgozat_Valtozok\obj\Debug\net8.0\Dolgozat_Valtozok.GeneratedMSBuildEditorConfig.editorconfig
+D:\baliando\Dolgozat_Valtozok\Dolgozat_Valtozok\obj\Debug\net8.0\Dolgozat_Valtozok.AssemblyInfoInputs.cache
+D:\baliando\Dolgozat_Valtozok\Dolgozat_Valtozok\obj\Debug\net8.0\Dolgozat_Valtozok.AssemblyInfo.cs
+D:\baliando\Dolgozat_Valtozok\Dolgozat_Valtozok\obj\Debug\net8.0\Dolgozat_Valtozok.csproj.CoreCompileInputs.cache
+D:\baliando\Dolgozat_Valtozok\Dolgozat_Valtozok\obj\Debug\net8.0\Dolgozat_Valtozok.dll
+D:\baliando\Dolgozat_Valtozok\Dolgozat_Valtozok\obj\Debug\net8.0\refint\Dolgozat_Valtozok.dll
+D:\baliando\Dolgozat_Valtozok\Dolgozat_Valtozok\obj\Debug\net8.0\Dolgozat_Valtozok.pdb
+D:\baliando\Dolgozat_Valtozok\Dolgozat_Valtozok\obj\Debug\net8.0\Dolgozat_Valtozok.genruntimeconfig.cache
+D:\baliando\Dolgozat_Valtozok\Dolgozat_Valtozok\obj\Debug\net8.0\ref\Dolgozat_Valtozok.dll
