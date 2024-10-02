@@ -1,0 +1,14 @@
+D:\baliando\SzovegesFeladat_01\SzovegesFeladat_01\bin\Debug\net8.0\SzovegesFeladat_01.exe
+D:\baliando\SzovegesFeladat_01\SzovegesFeladat_01\bin\Debug\net8.0\SzovegesFeladat_01.deps.json
+D:\baliando\SzovegesFeladat_01\SzovegesFeladat_01\bin\Debug\net8.0\SzovegesFeladat_01.runtimeconfig.json
+D:\baliando\SzovegesFeladat_01\SzovegesFeladat_01\bin\Debug\net8.0\SzovegesFeladat_01.dll
+D:\baliando\SzovegesFeladat_01\SzovegesFeladat_01\bin\Debug\net8.0\SzovegesFeladat_01.pdb
+D:\baliando\SzovegesFeladat_01\SzovegesFeladat_01\obj\Debug\net8.0\SzovegesFeladat_01.GeneratedMSBuildEditorConfig.editorconfig
+D:\baliando\SzovegesFeladat_01\SzovegesFeladat_01\obj\Debug\net8.0\SzovegesFeladat_01.AssemblyInfoInputs.cache
+D:\baliando\SzovegesFeladat_01\SzovegesFeladat_01\obj\Debug\net8.0\SzovegesFeladat_01.AssemblyInfo.cs
+D:\baliando\SzovegesFeladat_01\SzovegesFeladat_01\obj\Debug\net8.0\SzovegesFeladat_01.csproj.CoreCompileInputs.cache
+D:\baliando\SzovegesFeladat_01\SzovegesFeladat_01\obj\Debug\net8.0\SzovegesFeladat_01.dll
+D:\baliando\SzovegesFeladat_01\SzovegesFeladat_01\obj\Debug\net8.0\refint\SzovegesFeladat_01.dll
+D:\baliando\SzovegesFeladat_01\SzovegesFeladat_01\obj\Debug\net8.0\SzovegesFeladat_01.pdb
+D:\baliando\SzovegesFeladat_01\SzovegesFeladat_01\obj\Debug\net8.0\SzovegesFeladat_01.genruntimeconfig.cache
+D:\baliando\SzovegesFeladat_01\SzovegesFeladat_01\obj\Debug\net8.0\ref\SzovegesFeladat_01.dll
