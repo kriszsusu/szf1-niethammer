@@ -1,0 +1,14 @@
+D:\baliando\Testtomegindex\Testtomegindex\bin\Debug\net8.0\Testtomegindex.exe
+D:\baliando\Testtomegindex\Testtomegindex\bin\Debug\net8.0\Testtomegindex.deps.json
+D:\baliando\Testtomegindex\Testtomegindex\bin\Debug\net8.0\Testtomegindex.runtimeconfig.json
+D:\baliando\Testtomegindex\Testtomegindex\bin\Debug\net8.0\Testtomegindex.dll
+D:\baliando\Testtomegindex\Testtomegindex\bin\Debug\net8.0\Testtomegindex.pdb
+D:\baliando\Testtomegindex\Testtomegindex\obj\Debug\net8.0\Testtomegindex.GeneratedMSBuildEditorConfig.editorconfig
+D:\baliando\Testtomegindex\Testtomegindex\obj\Debug\net8.0\Testtomegindex.AssemblyInfoInputs.cache
+D:\baliando\Testtomegindex\Testtomegindex\obj\Debug\net8.0\Testtomegindex.AssemblyInfo.cs
+D:\baliando\Testtomegindex\Testtomegindex\obj\Debug\net8.0\Testtomegindex.csproj.CoreCompileInputs.cache
+D:\baliando\Testtomegindex\Testtomegindex\obj\Debug\net8.0\Testtomegindex.dll
+D:\baliando\Testtomegindex\Testtomegindex\obj\Debug\net8.0\refint\Testtomegindex.dll
+D:\baliando\Testtomegindex\Testtomegindex\obj\Debug\net8.0\Testtomegindex.pdb
+D:\baliando\Testtomegindex\Testtomegindex\obj\Debug\net8.0\Testtomegindex.genruntimeconfig.cache
+D:\baliando\Testtomegindex\Testtomegindex\obj\Debug\net8.0\ref\Testtomegindex.dll
