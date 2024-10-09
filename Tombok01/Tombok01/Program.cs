@@ -23,6 +23,13 @@
 
             Console.WriteLine("21. szám a tömbben: " + sok_szam[21]);
             Console.WriteLine("Az utolsó szám a tömbben: " + sok_szam[sok_szam.Length - 1]);
+
+            // Tömb alapértéke
+
+            for ( int i = 0; i < sok_szam.Length; i++ )
+            {
+                sok_szam[i] = i;
+            }
         }
     }
 }
