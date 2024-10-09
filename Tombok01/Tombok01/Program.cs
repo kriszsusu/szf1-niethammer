@@ -30,6 +30,24 @@
             {
                 sok_szam[i] = i;
             }
+
+            byte[] ascii = new byte[256];
+
+            for (byte i = 0; i < 255; i++)
+            {
+                ascii[i] = i;
+            }
+
+            Console.WriteLine((char)ascii[100]);
+
+            string[] otven_szo = new string[50];
+
+            for (int i = 0; i < otven_szo.Length; i++)
+            {
+                otven_szo[i] = "pillanat";
+            }
+
+            Console.WriteLine(otven_szo[5]);
         }
     }
 }
