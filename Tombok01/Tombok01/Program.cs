@@ -48,6 +48,11 @@
             }
 
             Console.WriteLine(otven_szo[5]);
+
+            if (args.Length > 0)
+            {
+                Console.WriteLine(args[0]);
+            }
         }
     }
 }
