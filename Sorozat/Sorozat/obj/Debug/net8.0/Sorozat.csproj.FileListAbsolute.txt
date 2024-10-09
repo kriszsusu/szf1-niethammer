@@ -1,0 +1,14 @@
+D:\baliando\Sorozat\Sorozat\bin\Debug\net8.0\Sorozat.exe
+D:\baliando\Sorozat\Sorozat\bin\Debug\net8.0\Sorozat.deps.json
+D:\baliando\Sorozat\Sorozat\bin\Debug\net8.0\Sorozat.runtimeconfig.json
+D:\baliando\Sorozat\Sorozat\bin\Debug\net8.0\Sorozat.dll
+D:\baliando\Sorozat\Sorozat\bin\Debug\net8.0\Sorozat.pdb
+D:\baliando\Sorozat\Sorozat\obj\Debug\net8.0\Sorozat.GeneratedMSBuildEditorConfig.editorconfig
+D:\baliando\Sorozat\Sorozat\obj\Debug\net8.0\Sorozat.AssemblyInfoInputs.cache
+D:\baliando\Sorozat\Sorozat\obj\Debug\net8.0\Sorozat.AssemblyInfo.cs
+D:\baliando\Sorozat\Sorozat\obj\Debug\net8.0\Sorozat.csproj.CoreCompileInputs.cache
+D:\baliando\Sorozat\Sorozat\obj\Debug\net8.0\Sorozat.dll
+D:\baliando\Sorozat\Sorozat\obj\Debug\net8.0\refint\Sorozat.dll
+D:\baliando\Sorozat\Sorozat\obj\Debug\net8.0\Sorozat.pdb
+D:\baliando\Sorozat\Sorozat\obj\Debug\net8.0\Sorozat.genruntimeconfig.cache
+D:\baliando\Sorozat\Sorozat\obj\Debug\net8.0\ref\Sorozat.dll
