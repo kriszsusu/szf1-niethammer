@@ -1,0 +1,14 @@
+D:\baliando\calc\calc\bin\Debug\net8.0\calc.exe
+D:\baliando\calc\calc\bin\Debug\net8.0\calc.deps.json
+D:\baliando\calc\calc\bin\Debug\net8.0\calc.runtimeconfig.json
+D:\baliando\calc\calc\bin\Debug\net8.0\calc.dll
+D:\baliando\calc\calc\bin\Debug\net8.0\calc.pdb
+D:\baliando\calc\calc\obj\Debug\net8.0\calc.GeneratedMSBuildEditorConfig.editorconfig
+D:\baliando\calc\calc\obj\Debug\net8.0\calc.AssemblyInfoInputs.cache
+D:\baliando\calc\calc\obj\Debug\net8.0\calc.AssemblyInfo.cs
+D:\baliando\calc\calc\obj\Debug\net8.0\calc.csproj.CoreCompileInputs.cache
+D:\baliando\calc\calc\obj\Debug\net8.0\calc.dll
+D:\baliando\calc\calc\obj\Debug\net8.0\refint\calc.dll
+D:\baliando\calc\calc\obj\Debug\net8.0\calc.pdb
+D:\baliando\calc\calc\obj\Debug\net8.0\calc.genruntimeconfig.cache
+D:\baliando\calc\calc\obj\Debug\net8.0\ref\calc.dll
