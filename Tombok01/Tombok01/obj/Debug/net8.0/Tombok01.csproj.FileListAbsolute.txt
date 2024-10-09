@@ -1,0 +1,14 @@
+D:\baliando\Tombok01\Tombok01\bin\Debug\net8.0\Tombok01.exe
+D:\baliando\Tombok01\Tombok01\bin\Debug\net8.0\Tombok01.deps.json
+D:\baliando\Tombok01\Tombok01\bin\Debug\net8.0\Tombok01.runtimeconfig.json
+D:\baliando\Tombok01\Tombok01\bin\Debug\net8.0\Tombok01.dll
+D:\baliando\Tombok01\Tombok01\bin\Debug\net8.0\Tombok01.pdb
+D:\baliando\Tombok01\Tombok01\obj\Debug\net8.0\Tombok01.GeneratedMSBuildEditorConfig.editorconfig
+D:\baliando\Tombok01\Tombok01\obj\Debug\net8.0\Tombok01.AssemblyInfoInputs.cache
+D:\baliando\Tombok01\Tombok01\obj\Debug\net8.0\Tombok01.AssemblyInfo.cs
+D:\baliando\Tombok01\Tombok01\obj\Debug\net8.0\Tombok01.csproj.CoreCompileInputs.cache
+D:\baliando\Tombok01\Tombok01\obj\Debug\net8.0\Tombok01.dll
+D:\baliando\Tombok01\Tombok01\obj\Debug\net8.0\refint\Tombok01.dll
+D:\baliando\Tombok01\Tombok01\obj\Debug\net8.0\Tombok01.pdb
+D:\baliando\Tombok01\Tombok01\obj\Debug\net8.0\Tombok01.genruntimeconfig.cache
+D:\baliando\Tombok01\Tombok01\obj\Debug\net8.0\ref\Tombok01.dll
