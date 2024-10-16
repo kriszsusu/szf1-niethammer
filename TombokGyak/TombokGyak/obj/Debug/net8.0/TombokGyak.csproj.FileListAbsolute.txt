@@ -1,0 +1,14 @@
+D:\baliando\TombokGyak\TombokGyak\bin\Debug\net8.0\TombokGyak.exe
+D:\baliando\TombokGyak\TombokGyak\bin\Debug\net8.0\TombokGyak.deps.json
+D:\baliando\TombokGyak\TombokGyak\bin\Debug\net8.0\TombokGyak.runtimeconfig.json
+D:\baliando\TombokGyak\TombokGyak\bin\Debug\net8.0\TombokGyak.dll
+D:\baliando\TombokGyak\TombokGyak\bin\Debug\net8.0\TombokGyak.pdb
+D:\baliando\TombokGyak\TombokGyak\obj\Debug\net8.0\TombokGyak.GeneratedMSBuildEditorConfig.editorconfig
+D:\baliando\TombokGyak\TombokGyak\obj\Debug\net8.0\TombokGyak.AssemblyInfoInputs.cache
+D:\baliando\TombokGyak\TombokGyak\obj\Debug\net8.0\TombokGyak.AssemblyInfo.cs
+D:\baliando\TombokGyak\TombokGyak\obj\Debug\net8.0\TombokGyak.csproj.CoreCompileInputs.cache
+D:\baliando\TombokGyak\TombokGyak\obj\Debug\net8.0\TombokGyak.dll
+D:\baliando\TombokGyak\TombokGyak\obj\Debug\net8.0\refint\TombokGyak.dll
+D:\baliando\TombokGyak\TombokGyak\obj\Debug\net8.0\TombokGyak.pdb
+D:\baliando\TombokGyak\TombokGyak\obj\Debug\net8.0\TombokGyak.genruntimeconfig.cache
+D:\baliando\TombokGyak\TombokGyak\obj\Debug\net8.0\ref\TombokGyak.dll

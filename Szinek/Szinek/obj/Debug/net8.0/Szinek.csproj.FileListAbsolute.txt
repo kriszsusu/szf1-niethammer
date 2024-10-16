@@ -1,0 +1,14 @@
+D:\baliando\Szinek\Szinek\bin\Debug\net8.0\Szinek.exe
+D:\baliando\Szinek\Szinek\bin\Debug\net8.0\Szinek.deps.json
+D:\baliando\Szinek\Szinek\bin\Debug\net8.0\Szinek.runtimeconfig.json
+D:\baliando\Szinek\Szinek\bin\Debug\net8.0\Szinek.dll
+D:\baliando\Szinek\Szinek\bin\Debug\net8.0\Szinek.pdb
+D:\baliando\Szinek\Szinek\obj\Debug\net8.0\Szinek.GeneratedMSBuildEditorConfig.editorconfig
+D:\baliando\Szinek\Szinek\obj\Debug\net8.0\Szinek.AssemblyInfoInputs.cache
+D:\baliando\Szinek\Szinek\obj\Debug\net8.0\Szinek.AssemblyInfo.cs
+D:\baliando\Szinek\Szinek\obj\Debug\net8.0\Szinek.csproj.CoreCompileInputs.cache
+D:\baliando\Szinek\Szinek\obj\Debug\net8.0\Szinek.dll
+D:\baliando\Szinek\Szinek\obj\Debug\net8.0\refint\Szinek.dll
+D:\baliando\Szinek\Szinek\obj\Debug\net8.0\Szinek.pdb
+D:\baliando\Szinek\Szinek\obj\Debug\net8.0\Szinek.genruntimeconfig.cache
+D:\baliando\Szinek\Szinek\obj\Debug\net8.0\ref\Szinek.dll
