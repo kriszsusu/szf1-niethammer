@@ -1,0 +1,14 @@
+D:\baliando\SwitchCase02\SwitchCase02\bin\Debug\net8.0\SwitchCase02.exe
+D:\baliando\SwitchCase02\SwitchCase02\bin\Debug\net8.0\SwitchCase02.deps.json
+D:\baliando\SwitchCase02\SwitchCase02\bin\Debug\net8.0\SwitchCase02.runtimeconfig.json
+D:\baliando\SwitchCase02\SwitchCase02\bin\Debug\net8.0\SwitchCase02.dll
+D:\baliando\SwitchCase02\SwitchCase02\bin\Debug\net8.0\SwitchCase02.pdb
+D:\baliando\SwitchCase02\SwitchCase02\obj\Debug\net8.0\SwitchCase02.GeneratedMSBuildEditorConfig.editorconfig
+D:\baliando\SwitchCase02\SwitchCase02\obj\Debug\net8.0\SwitchCase02.AssemblyInfoInputs.cache
+D:\baliando\SwitchCase02\SwitchCase02\obj\Debug\net8.0\SwitchCase02.AssemblyInfo.cs
+D:\baliando\SwitchCase02\SwitchCase02\obj\Debug\net8.0\SwitchCase02.csproj.CoreCompileInputs.cache
+D:\baliando\SwitchCase02\SwitchCase02\obj\Debug\net8.0\SwitchCase02.dll
+D:\baliando\SwitchCase02\SwitchCase02\obj\Debug\net8.0\refint\SwitchCase02.dll
+D:\baliando\SwitchCase02\SwitchCase02\obj\Debug\net8.0\SwitchCase02.pdb
+D:\baliando\SwitchCase02\SwitchCase02\obj\Debug\net8.0\SwitchCase02.genruntimeconfig.cache
+D:\baliando\SwitchCase02\SwitchCase02\obj\Debug\net8.0\ref\SwitchCase02.dll
