@@ -1,0 +1,14 @@
+D:\baliando\Dolgozat2-Tombok\Dolgozat2-Tombok\bin\Debug\net8.0\Dolgozat2-Tombok.exe
+D:\baliando\Dolgozat2-Tombok\Dolgozat2-Tombok\bin\Debug\net8.0\Dolgozat2-Tombok.deps.json
+D:\baliando\Dolgozat2-Tombok\Dolgozat2-Tombok\bin\Debug\net8.0\Dolgozat2-Tombok.runtimeconfig.json
+D:\baliando\Dolgozat2-Tombok\Dolgozat2-Tombok\bin\Debug\net8.0\Dolgozat2-Tombok.dll
+D:\baliando\Dolgozat2-Tombok\Dolgozat2-Tombok\bin\Debug\net8.0\Dolgozat2-Tombok.pdb
+D:\baliando\Dolgozat2-Tombok\Dolgozat2-Tombok\obj\Debug\net8.0\Dolgozat2-Tombok.GeneratedMSBuildEditorConfig.editorconfig
+D:\baliando\Dolgozat2-Tombok\Dolgozat2-Tombok\obj\Debug\net8.0\Dolgozat2-Tombok.AssemblyInfoInputs.cache
+D:\baliando\Dolgozat2-Tombok\Dolgozat2-Tombok\obj\Debug\net8.0\Dolgozat2-Tombok.AssemblyInfo.cs
+D:\baliando\Dolgozat2-Tombok\Dolgozat2-Tombok\obj\Debug\net8.0\Dolgozat2-Tombok.csproj.CoreCompileInputs.cache
+D:\baliando\Dolgozat2-Tombok\Dolgozat2-Tombok\obj\Debug\net8.0\Dolgozat2-Tombok.dll
+D:\baliando\Dolgozat2-Tombok\Dolgozat2-Tombok\obj\Debug\net8.0\refint\Dolgozat2-Tombok.dll
+D:\baliando\Dolgozat2-Tombok\Dolgozat2-Tombok\obj\Debug\net8.0\Dolgozat2-Tombok.pdb
+D:\baliando\Dolgozat2-Tombok\Dolgozat2-Tombok\obj\Debug\net8.0\Dolgozat2-Tombok.genruntimeconfig.cache
+D:\baliando\Dolgozat2-Tombok\Dolgozat2-Tombok\obj\Debug\net8.0\ref\Dolgozat2-Tombok.dll
