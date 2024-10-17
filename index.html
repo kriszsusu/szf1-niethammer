@@ -3,132 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>folder list xd</title>
+    <title>xd</title>
+    <link href="https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@300;400;500&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background: linear-gradient(135deg, #1C1C1E, #2C2C2E);
-            color: #FFFFFF;
+            font-family: 'Helvetica Neue', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: #FFFFFF;
+            color: #1D1D1F;
             margin: 0;
             padding: 0;
-            overflow-x: hidden;
         }
 
         header {
-            background-color: rgba(255, 255, 255, 0.1);
-            padding: 1rem 2rem;
-            color: #FFFFFF;
+            padding: 2rem 1rem;
             text-align: center;
-            backdrop-filter: blur(10px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            border-bottom: 1px solid #E5E5E5;
         }
 
-        h1, h2 {
+        header h1 {
             margin: 0;
-            font-weight: normal;
+            font-weight: 600;
+            font-size: 2.5rem;
+            letter-spacing: -0.02em;
         }
 
         .container {
             max-width: 800px;
-            margin: 2rem auto;
-            padding: 1rem;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 16px;
-            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin: 3rem auto;
+            padding: 0 1.5rem;
         }
 
         ul {
             list-style: none;
             padding: 0;
+            margin: 0;
         }
 
         li {
-            margin: 0.5rem 0;
-            padding: 0;
+            margin-bottom: 1rem;
         }
 
         li a {
             display: flex;
             align-items: center;
-            padding: 0.75rem 1rem;
+            padding: 1rem 1.5rem;
             border-radius: 12px;
-            color: #FFFFFF;
+            color: inherit;
             text-decoration: none;
-            background: rgba(255, 255, 255, 0.05);
-            transition: background 0.2s;
+            background-color: #F5F5F7AA;
+            transition: background-color 0.3s, transform 0.3s;
         }
 
         li a:hover {
-            background: rgba(255, 255, 255, 0.15);
+            background-color: #E5E5E7;
+            transform: scale(1.02);
         }
 
         .folder-icon {
             display: inline-block;
-            margin-right: 0.75rem;
-            width: 24px;
-            height: 24px;
-            background-image: url('https://cdn-icons-png.flaticon.com/512/12180/12180450.png');
-            background-size: contain;
-            background-repeat: no-repeat;
-            filter: invert(100%);
+            margin-right: 1rem;
+            width: 28px;
+            height: 28px;
+        }
+
+        .folder-icon svg {
+            width: 100%;
+            height: 100%;
+            fill: #1D1D1F;
         }
 
         footer {
             text-align: center;
             padding: 2rem;
-            color: #999;
+            color: #6E6E73;
             font-size: 0.9rem;
+            border-top: 1px solid #E5E5E5;
+        }
+
+        footer a {
+            color: #0071E3;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        img.emoji {
+            height: 1em;
+            width: 1em;
+            margin: 0 .05em 0 .1em;
+            vertical-align: -0.1em;
         }
 
         @media (max-width: 600px) {
-            .container {
-                margin: 1rem;
+            header h1 {
+                font-size: 2rem;
             }
 
             li a {
-                padding: 0.5rem 0.75rem;
+                padding: 0.75rem 1rem;
             }
 
             .folder-icon {
-                width: 20px;
-                height: 20px;
+                width: 24px;
+                height: 24px;
             }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>SzF1 - Niethammer | Projects</h1>
+        <h1>kriszsusu/szf1-niethammer</h1>
     </header>
 
     <div class="container">
-        <h2>Repository: kriszsusu/szf1-niethammer</h2>
-        <ul id="folderList">
-        </ul>
+        <ul id="folderList"></ul>
     </div>
 
     <footer>
         <p>Made with ❤️ by <a href="https://github.com/kriszsusu" target="_blank">kriszsusu</a></p>
     </footer>
 
+    <script src="https://liba.lol/js/twemoji.min.js"></script>
     <script>
+        twemoji.parse(document.body);
+        
         async function fetchRepoFolders() {
             const apiUrl = "https://api.github.com/repos/kriszsusu/szf1-niethammer/contents";
             const response = await fetch(apiUrl);
-            const data = await response.json();
+            let data = await response.json();
             const folderList = document.getElementById('folderList');
 
+            data = data.filter(item => item.type === 'dir' && !item.name.startsWith('.'));
+            data.sort((a, b) => a.name.localeCompare(b.name));
+
             data.forEach(item => {
-                if (item.type === 'dir') {
-                    const li = document.createElement('li');
-                    li.innerHTML = `
-                        <a href="${item.html_url}" target="_blank">
-                            <span class="folder-icon"></span> ${item.name}
-                        </a>`;
-                    folderList.appendChild(li);
-                }
+                const li = document.createElement('li');
+                li.innerHTML = `
+                    <a href="${item.html_url}" target="_blank">
+                        <span class="folder-icon">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M4 4h5l2 2h9c1.1 0 2 .9 2 2v10c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            </svg>
+                        </span>
+                        ${item.name}
+                    </a>`;
+                folderList.appendChild(li);
             });
         }
 
