@@ -1,0 +1,14 @@
+D:\11SZF1\CS\dowhilefeladat\obj\Debug\net8.0\dowhilefeladat.GeneratedMSBuildEditorConfig.editorconfig
+D:\11SZF1\CS\dowhilefeladat\obj\Debug\net8.0\dowhilefeladat.AssemblyInfoInputs.cache
+D:\11SZF1\CS\dowhilefeladat\obj\Debug\net8.0\dowhilefeladat.AssemblyInfo.cs
+D:\11SZF1\CS\dowhilefeladat\obj\Debug\net8.0\dowhilefeladat.csproj.CoreCompileInputs.cache
+D:\11SZF1\CS\dowhilefeladat\bin\Debug\net8.0\dowhilefeladat.exe
+D:\11SZF1\CS\dowhilefeladat\bin\Debug\net8.0\dowhilefeladat.deps.json
+D:\11SZF1\CS\dowhilefeladat\bin\Debug\net8.0\dowhilefeladat.runtimeconfig.json
+D:\11SZF1\CS\dowhilefeladat\bin\Debug\net8.0\dowhilefeladat.dll
+D:\11SZF1\CS\dowhilefeladat\bin\Debug\net8.0\dowhilefeladat.pdb
+D:\11SZF1\CS\dowhilefeladat\obj\Debug\net8.0\dowhilefeladat.dll
+D:\11SZF1\CS\dowhilefeladat\obj\Debug\net8.0\refint\dowhilefeladat.dll
+D:\11SZF1\CS\dowhilefeladat\obj\Debug\net8.0\dowhilefeladat.pdb
+D:\11SZF1\CS\dowhilefeladat\obj\Debug\net8.0\dowhilefeladat.genruntimeconfig.cache
+D:\11SZF1\CS\dowhilefeladat\obj\Debug\net8.0\ref\dowhilefeladat.dll

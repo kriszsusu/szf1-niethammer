@@ -1,0 +1,14 @@
+D:\11SZF1\CS\szamlalo\bin\Debug\net8.0\szamlalo.exe
+D:\11SZF1\CS\szamlalo\bin\Debug\net8.0\szamlalo.deps.json
+D:\11SZF1\CS\szamlalo\bin\Debug\net8.0\szamlalo.runtimeconfig.json
+D:\11SZF1\CS\szamlalo\bin\Debug\net8.0\szamlalo.dll
+D:\11SZF1\CS\szamlalo\bin\Debug\net8.0\szamlalo.pdb
+D:\11SZF1\CS\szamlalo\obj\Debug\net8.0\szamlalo.GeneratedMSBuildEditorConfig.editorconfig
+D:\11SZF1\CS\szamlalo\obj\Debug\net8.0\szamlalo.AssemblyInfoInputs.cache
+D:\11SZF1\CS\szamlalo\obj\Debug\net8.0\szamlalo.AssemblyInfo.cs
+D:\11SZF1\CS\szamlalo\obj\Debug\net8.0\szamlalo.csproj.CoreCompileInputs.cache
+D:\11SZF1\CS\szamlalo\obj\Debug\net8.0\szamlalo.dll
+D:\11SZF1\CS\szamlalo\obj\Debug\net8.0\refint\szamlalo.dll
+D:\11SZF1\CS\szamlalo\obj\Debug\net8.0\szamlalo.pdb
+D:\11SZF1\CS\szamlalo\obj\Debug\net8.0\szamlalo.genruntimeconfig.cache
+D:\11SZF1\CS\szamlalo\obj\Debug\net8.0\ref\szamlalo.dll

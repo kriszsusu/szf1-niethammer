@@ -1,0 +1,14 @@
+D:\11SZF1\CS\Fuggveny1\obj\Debug\net8.0\Fuggveny1.GeneratedMSBuildEditorConfig.editorconfig
+D:\11SZF1\CS\Fuggveny1\obj\Debug\net8.0\Fuggveny1.AssemblyInfoInputs.cache
+D:\11SZF1\CS\Fuggveny1\obj\Debug\net8.0\Fuggveny1.AssemblyInfo.cs
+D:\11SZF1\CS\Fuggveny1\obj\Debug\net8.0\Fuggveny1.csproj.CoreCompileInputs.cache
+D:\11SZF1\CS\Fuggveny1\bin\Debug\net8.0\Fuggveny1.exe
+D:\11SZF1\CS\Fuggveny1\bin\Debug\net8.0\Fuggveny1.deps.json
+D:\11SZF1\CS\Fuggveny1\bin\Debug\net8.0\Fuggveny1.runtimeconfig.json
+D:\11SZF1\CS\Fuggveny1\bin\Debug\net8.0\Fuggveny1.dll
+D:\11SZF1\CS\Fuggveny1\bin\Debug\net8.0\Fuggveny1.pdb
+D:\11SZF1\CS\Fuggveny1\obj\Debug\net8.0\Fuggveny1.dll
+D:\11SZF1\CS\Fuggveny1\obj\Debug\net8.0\refint\Fuggveny1.dll
+D:\11SZF1\CS\Fuggveny1\obj\Debug\net8.0\Fuggveny1.pdb
+D:\11SZF1\CS\Fuggveny1\obj\Debug\net8.0\Fuggveny1.genruntimeconfig.cache
+D:\11SZF1\CS\Fuggveny1\obj\Debug\net8.0\ref\Fuggveny1.dll
