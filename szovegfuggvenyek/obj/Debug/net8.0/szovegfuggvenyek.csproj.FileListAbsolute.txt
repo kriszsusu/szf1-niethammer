@@ -1,0 +1,14 @@
+D:\11SZF1\CS\szovegfuggvenyek\bin\Debug\net8.0\szovegfuggvenyek.exe
+D:\11SZF1\CS\szovegfuggvenyek\bin\Debug\net8.0\szovegfuggvenyek.deps.json
+D:\11SZF1\CS\szovegfuggvenyek\bin\Debug\net8.0\szovegfuggvenyek.runtimeconfig.json
+D:\11SZF1\CS\szovegfuggvenyek\bin\Debug\net8.0\szovegfuggvenyek.dll
+D:\11SZF1\CS\szovegfuggvenyek\bin\Debug\net8.0\szovegfuggvenyek.pdb
+D:\11SZF1\CS\szovegfuggvenyek\obj\Debug\net8.0\szovegfuggvenyek.GeneratedMSBuildEditorConfig.editorconfig
+D:\11SZF1\CS\szovegfuggvenyek\obj\Debug\net8.0\szovegfuggvenyek.AssemblyInfoInputs.cache
+D:\11SZF1\CS\szovegfuggvenyek\obj\Debug\net8.0\szovegfuggvenyek.AssemblyInfo.cs
+D:\11SZF1\CS\szovegfuggvenyek\obj\Debug\net8.0\szovegfuggvenyek.csproj.CoreCompileInputs.cache
+D:\11SZF1\CS\szovegfuggvenyek\obj\Debug\net8.0\szovegfuggvenyek.dll
+D:\11SZF1\CS\szovegfuggvenyek\obj\Debug\net8.0\refint\szovegfuggvenyek.dll
+D:\11SZF1\CS\szovegfuggvenyek\obj\Debug\net8.0\szovegfuggvenyek.pdb
+D:\11SZF1\CS\szovegfuggvenyek\obj\Debug\net8.0\szovegfuggvenyek.genruntimeconfig.cache
+D:\11SZF1\CS\szovegfuggvenyek\obj\Debug\net8.0\ref\szovegfuggvenyek.dll
