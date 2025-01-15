@@ -1,0 +1,14 @@
+D:\11SZF1\CS\2025Ismetles01\obj\Debug\net8.0\2025Ismetles01.GeneratedMSBuildEditorConfig.editorconfig
+D:\11SZF1\CS\2025Ismetles01\obj\Debug\net8.0\2025Ismetles01.AssemblyInfoInputs.cache
+D:\11SZF1\CS\2025Ismetles01\obj\Debug\net8.0\2025Ismetles01.AssemblyInfo.cs
+D:\11SZF1\CS\2025Ismetles01\obj\Debug\net8.0\2025Ismetles01.csproj.CoreCompileInputs.cache
+D:\11SZF1\CS\2025Ismetles01\bin\Debug\net8.0\2025Ismetles01.exe
+D:\11SZF1\CS\2025Ismetles01\bin\Debug\net8.0\2025Ismetles01.deps.json
+D:\11SZF1\CS\2025Ismetles01\bin\Debug\net8.0\2025Ismetles01.runtimeconfig.json
+D:\11SZF1\CS\2025Ismetles01\bin\Debug\net8.0\2025Ismetles01.dll
+D:\11SZF1\CS\2025Ismetles01\bin\Debug\net8.0\2025Ismetles01.pdb
+D:\11SZF1\CS\2025Ismetles01\obj\Debug\net8.0\2025Ismetles01.dll
+D:\11SZF1\CS\2025Ismetles01\obj\Debug\net8.0\refint\2025Ismetles01.dll
+D:\11SZF1\CS\2025Ismetles01\obj\Debug\net8.0\2025Ismetles01.pdb
+D:\11SZF1\CS\2025Ismetles01\obj\Debug\net8.0\2025Ismetles01.genruntimeconfig.cache
+D:\11SZF1\CS\2025Ismetles01\obj\Debug\net8.0\ref\2025Ismetles01.dll
