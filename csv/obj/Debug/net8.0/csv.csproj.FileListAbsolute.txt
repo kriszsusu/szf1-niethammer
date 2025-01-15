@@ -1,0 +1,14 @@
+D:\11SZF1\CS\csv\bin\Debug\net8.0\csv.exe
+D:\11SZF1\CS\csv\bin\Debug\net8.0\csv.deps.json
+D:\11SZF1\CS\csv\bin\Debug\net8.0\csv.runtimeconfig.json
+D:\11SZF1\CS\csv\bin\Debug\net8.0\csv.dll
+D:\11SZF1\CS\csv\bin\Debug\net8.0\csv.pdb
+D:\11SZF1\CS\csv\obj\Debug\net8.0\csv.GeneratedMSBuildEditorConfig.editorconfig
+D:\11SZF1\CS\csv\obj\Debug\net8.0\csv.AssemblyInfoInputs.cache
+D:\11SZF1\CS\csv\obj\Debug\net8.0\csv.AssemblyInfo.cs
+D:\11SZF1\CS\csv\obj\Debug\net8.0\csv.csproj.CoreCompileInputs.cache
+D:\11SZF1\CS\csv\obj\Debug\net8.0\csv.dll
+D:\11SZF1\CS\csv\obj\Debug\net8.0\refint\csv.dll
+D:\11SZF1\CS\csv\obj\Debug\net8.0\csv.pdb
+D:\11SZF1\CS\csv\obj\Debug\net8.0\csv.genruntimeconfig.cache
+D:\11SZF1\CS\csv\obj\Debug\net8.0\ref\csv.dll
