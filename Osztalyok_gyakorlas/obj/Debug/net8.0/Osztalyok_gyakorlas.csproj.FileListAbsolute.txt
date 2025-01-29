@@ -1,0 +1,14 @@
+D:\11SZF1\CS\Osztalyok_gyakorlas\obj\Debug\net8.0\Osztalyok_gyakorlas.GeneratedMSBuildEditorConfig.editorconfig
+D:\11SZF1\CS\Osztalyok_gyakorlas\obj\Debug\net8.0\Osztalyok_gyakorlas.AssemblyInfoInputs.cache
+D:\11SZF1\CS\Osztalyok_gyakorlas\obj\Debug\net8.0\Osztalyok_gyakorlas.AssemblyInfo.cs
+D:\11SZF1\CS\Osztalyok_gyakorlas\obj\Debug\net8.0\Osztalyok_gyakorlas.csproj.CoreCompileInputs.cache
+D:\11SZF1\CS\Osztalyok_gyakorlas\bin\Debug\net8.0\Osztalyok_gyakorlas.exe
+D:\11SZF1\CS\Osztalyok_gyakorlas\bin\Debug\net8.0\Osztalyok_gyakorlas.deps.json
+D:\11SZF1\CS\Osztalyok_gyakorlas\bin\Debug\net8.0\Osztalyok_gyakorlas.runtimeconfig.json
+D:\11SZF1\CS\Osztalyok_gyakorlas\bin\Debug\net8.0\Osztalyok_gyakorlas.dll
+D:\11SZF1\CS\Osztalyok_gyakorlas\bin\Debug\net8.0\Osztalyok_gyakorlas.pdb
+D:\11SZF1\CS\Osztalyok_gyakorlas\obj\Debug\net8.0\Osztalyok_gyakorlas.dll
+D:\11SZF1\CS\Osztalyok_gyakorlas\obj\Debug\net8.0\refint\Osztalyok_gyakorlas.dll
+D:\11SZF1\CS\Osztalyok_gyakorlas\obj\Debug\net8.0\Osztalyok_gyakorlas.pdb
+D:\11SZF1\CS\Osztalyok_gyakorlas\obj\Debug\net8.0\Osztalyok_gyakorlas.genruntimeconfig.cache
+D:\11SZF1\CS\Osztalyok_gyakorlas\obj\Debug\net8.0\ref\Osztalyok_gyakorlas.dll
