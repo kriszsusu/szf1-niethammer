@@ -16,16 +16,19 @@ namespace src
 {
     public partial class MainForm : Form
     {
+        // Kiválasztott képek fájlneveinek listája
         private List<string> selectedImages = new List<string>();
+        // Betöltött képek tárolása fájlnév-Image párokban
         private Dictionary<string, Image> images = new Dictionary<string, Image>();
 
         public MainForm()
         {
             InitializeComponent();
-
-            RenderHtml();
+            RenderHtml(); // HTML előnézet inicializálása (leírás részen)
         }
 
+        #region event handlers
+        // Mappaválasztó eseménykezelő: képek betöltése ListView-ba
         private void button1_Click(object sender, EventArgs e)
         {
             FolderBrowserDialog dialog = new FolderBrowserDialog();
@@ -34,7 +37,7 @@ namespace src
 
             if (result == DialogResult.OK)
             {
-                // reset parameters
+                // UI komponensek és adatstruktúrák resetelése
                 listView1.Items.Clear();
                 imageList1.Images.Clear();
                 listView1.LargeImageList = imageList1;
@@ -43,11 +46,14 @@ namespace src
                 selectedImages.Clear();
                 fileNameLabel.Text = "";
                 directoryLabel.Text = "";
+                pictureBox1.Image = null;
                 UpdateCounter();
 
-                // MessageBox.Show("Kijelölt mappa: " + dialog.SelectedPath);
                 directoryLabel.Text = dialog.SelectedPath;
+                // Képfájlok listázása és validálás
                 List<string> fileList = Directory.EnumerateFiles(dialog.SelectedPath).Where(file => file.ToLower().EndsWith("jpg") || file.ToLower().EndsWith("jpeg") || file.ToLower().EndsWith("png")).ToList();
+                
+                // Hibakezelés
                 if (fileList.Count > 1000)
                 {
                     MessageBox.Show("Ebben a mappában túl sok kép van!", "Hiba", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -59,14 +65,17 @@ namespace src
                     return;
                 }
 
+                // Töltőcsík
                 progressBar.Value = 0;
                 progressBar.Maximum = fileList.Count;
                 progressBar.Visible = true;
+
+                // Képek betöltése
                 foreach (string imagePath in fileList)
                 {
                     string fileName = imagePath.Substring(dialog.SelectedPath.Length + 1);
                     int index = fileList.IndexOf(imagePath);
-                    progressBar.Value = index;
+                    progressBar.Value = index; // Töltőcsík frissítése
                     try
                     {
                         Image image = Image.FromFile(imagePath);
@@ -76,6 +85,7 @@ namespace src
                     }
                     catch (Exception ex)
                     {
+                        //Hibakezelés
                         MessageBox.Show($"Nem lehetett betölteni a(z) {fileName} fájlt: {ex.Message}", "Hiba", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
@@ -83,6 +93,7 @@ namespace src
             }
         }
 
+        // Ha kijelölésre kerül egy kép, ez lefut
         private void listView1_ItemCheck(object sender, ItemCheckEventArgs e)
         {
             bool justChecked = !listView1.Items[e.Index].Checked;
@@ -98,6 +109,7 @@ namespace src
             UpdateCounter();
         }
 
+        // "Nagyító" funkció féleség
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (listView1.SelectedItems.Count > 0)
@@ -107,12 +119,71 @@ namespace src
             }
         }
 
+        private void convertButton_Click(object sender, EventArgs e)
+        {
+            richTextBox2.Text = "";
+            string localDirectory = Environment.CurrentDirectory;
+            DateTime dateTimeNow = DateTime.Now;
+            DateTime selectedDate = monthCalendar1.SelectionStart;
+            string folderName = $"{dateTimeNow.Year}__{PadNumber(dateTimeNow.Month)}__{PadNumber(dateTimeNow.Day)}_{PadNumber(dateTimeNow.Hour)}_{PadNumber(dateTimeNow.Minute)}_{PadNumber(dateTimeNow.Second)}_{RemoveAccentsAndSpaces(titleTextBox.Text).ToLower()}";
+            string feltolteniPath = Path.Combine(localDirectory, "feltölteni");
+
+            // Hibakezelés
+            if (!Directory.Exists(feltolteniPath))
+            {
+                Directory.CreateDirectory(feltolteniPath);
+                richTextBox2.Text += $"[{DateTime.UtcNow}] 'feltölteni' mappa létrehozva\n";
+            }
+
+            string folderPath = Path.Combine(feltolteniPath, folderName);
+            Directory.CreateDirectory(folderPath);
+            richTextBox2.Text += $"[{DateTime.UtcNow}] '{folderName}' mappa létrehozva\n";
+
+            // Metadata fájlok
+            File.WriteAllText(Path.Combine(folderPath, "leiras.txt"), HtmlEncoder.Default.Encode(richTextBox1.Text));
+            richTextBox2.Text += $"[{DateTime.UtcNow}] 'leiras.txt' létrehozva\n";
+
+            File.WriteAllText(Path.Combine(folderPath, "szerzo.txt"), HtmlEncoder.Default.Encode(writerTextBox.Text));
+            richTextBox2.Text += $"[{DateTime.UtcNow}] 'szerzo.txt' létrehozva\n";
+
+            File.WriteAllText(Path.Combine(folderPath, "foto.txt"), HtmlEncoder.Default.Encode(photographerTextBox.Text));
+            richTextBox2.Text += $"[{DateTime.UtcNow}] 'foto.txt' létrehozva\n";
+
+            File.WriteAllText(Path.Combine(folderPath, "datum.txt"), HtmlEncoder.Default.Encode($"{selectedDate.Year}.{PadNumber(selectedDate.Month)}.{PadNumber(selectedDate.Day)}"));
+            richTextBox2.Text += $"[{DateTime.UtcNow}] 'datum.txt' létrehozva\n";
+
+            File.WriteAllText(Path.Combine(folderPath, "cim.txt"), HtmlEncoder.Default.Encode(titleTextBox.Text));
+            richTextBox2.Text += $"[{DateTime.UtcNow}] 'cim.txt' létrehozva\n";
+
+            foreach (string selectedImage in selectedImages)
+            {
+                Image thumbnail = ResizeImage(selectedImage, (int)thumbnailWidth.Value, null);
+                Image large = ResizeImage(selectedImage, (int)largeImgWidth.Value, watermarkTextbox.Text);
+
+                richTextBox2.Text += $"[{DateTime.UtcNow}] '{selectedImage}' átalakítva\n";
+
+                string thumbnailPath = Path.Combine(folderPath, $"th_{RemoveAccentsAndSpaces(Path.GetFileName(selectedImage))}");
+                string largePath = Path.Combine(folderPath, RemoveAccentsAndSpaces(Path.GetFileName(selectedImage)));
+
+                thumbnail.Save(thumbnailPath);
+                large.Save(largePath);
+
+                richTextBox2.Text += $"[{DateTime.UtcNow}] '{selectedImage}' lementve\n";
+            }
+
+            richTextBox2.Text += $"[{DateTime.UtcNow}] Kész\n";
+        }
+        #endregion
+
+        #region helpers
+        // Kijelölt kép számláló frissítése
         private void UpdateCounter()
         {
             int counter = selectedImages.Count;
             selectedImgsLabel.Text = $"Kijelölt képek száma: {counter.ToString()}";
         }
 
+        // Ékezetek és szóközök eltávolítására használt funkció
         private string RemoveAccentsAndSpaces(string text)
         {
             text = text.Normalize(NormalizationForm.FormD);
@@ -132,6 +203,8 @@ namespace src
             return stringBuilder.ToString().Normalize(NormalizationForm.FormC);
         }
 
+        // Képszerkesztésre használt funkció
+        // Ez kezeli a vízjeleket is.
         private Image ResizeImage(string fileName, int maxWidth, string watermark)
         {
             Image image = images[fileName];
@@ -184,9 +257,24 @@ namespace src
 
         private void RenderHtml()
         {
-            webBrowser.DocumentText = $"<meta charset=utf8><h1>{titleTextBox.Text}</h1><p>{richTextBox1.Text}</p><p>Fényképezte: {photographerTextBox.Text}</p><p>Szöveget írta: {writerTextBox.Text}</p>";
+            webBrowser.DocumentText = $@"
+                <meta charset=utf8>
+                <h1>{titleTextBox.Text}</h1>
+                <p>{richTextBox1.Text}</p>
+                <p>Fényképezte: {photographerTextBox.Text}</p>
+                <p>Szöveget írta: {writerTextBox.Text}</p>
+            ";
         }
+        private string PadNumber(int number)
+        {
+            if (number > 9) return number.ToString();
+            return $"0{number.ToString()}";
+        }
+        #endregion
 
+        #region cooldown
+        // Visszaszámláló, hogy ne minden betűlenyomásnál frissüljön az oldal, mert
+        // eléggé lelassítja a programot.
         System.Windows.Forms.Timer renderTimer = new System.Windows.Forms.Timer();
         private new void TextChanged(object sender, EventArgs e)
         {
@@ -201,65 +289,6 @@ namespace src
             RenderHtml();
             renderTimer.Stop();
         }
-
-        private string PadNumber(int number)
-        {
-            if (number > 9) return number.ToString();
-            return $"0{number.ToString()}";
-        }
-
-        private void convertButton_Click(object sender, EventArgs e)
-        {
-            richTextBox2.Text = "";
-            string localDirectory = Environment.CurrentDirectory;
-            DateTime dateTimeNow = DateTime.Now;
-            DateTime selectedDate = monthCalendar1.SelectionStart;
-            string folderName = $"{dateTimeNow.Year}__{PadNumber(dateTimeNow.Month)}__{PadNumber(dateTimeNow.Day)}_{PadNumber(dateTimeNow.Hour)}_{PadNumber(dateTimeNow.Minute)}_{PadNumber(dateTimeNow.Second)}_{RemoveAccentsAndSpaces(titleTextBox.Text).ToLower()}";
-
-            string feltolteniPath = Path.Combine(localDirectory, "feltölteni");
-
-            if (!Directory.Exists(feltolteniPath))
-            {
-                Directory.CreateDirectory(feltolteniPath);
-                richTextBox2.Text += $"[{DateTime.UtcNow}] 'feltölteni' mappa létrehozva\n";
-            }
-
-            string folderPath = Path.Combine(feltolteniPath, folderName);
-            Directory.CreateDirectory(folderPath);
-            richTextBox2.Text += $"[{DateTime.UtcNow}] '{folderName}' mappa létrehozva\n";
-
-            File.WriteAllText(Path.Combine(folderPath, "leiras.txt"), HtmlEncoder.Default.Encode(richTextBox1.Text));
-            richTextBox2.Text += $"[{DateTime.UtcNow}] 'leiras.txt' létrehozva\n";
-
-            File.WriteAllText(Path.Combine(folderPath, "szerzo.txt"), HtmlEncoder.Default.Encode(writerTextBox.Text));
-            richTextBox2.Text += $"[{DateTime.UtcNow}] 'szerzo.txt' létrehozva\n";
-
-            File.WriteAllText(Path.Combine(folderPath, "foto.txt"), HtmlEncoder.Default.Encode(photographerTextBox.Text));
-            richTextBox2.Text += $"[{DateTime.UtcNow}] 'foto.txt' létrehozva\n";
-
-            File.WriteAllText(Path.Combine(folderPath, "datum.txt"), HtmlEncoder.Default.Encode($"{selectedDate.Year}.{PadNumber(selectedDate.Month)}.{PadNumber(selectedDate.Day)}"));
-            richTextBox2.Text += $"[{DateTime.UtcNow}] 'datum.txt' létrehozva\n";
-
-            File.WriteAllText(Path.Combine(folderPath, "cim.txt"), HtmlEncoder.Default.Encode(titleTextBox.Text));
-            richTextBox2.Text += $"[{DateTime.UtcNow}] 'cim.txt' létrehozva\n";
-
-            foreach (string selectedImage in selectedImages)
-            {
-                Image thumbnail = ResizeImage(selectedImage, (int)thumbnailWidth.Value, null);
-                Image large = ResizeImage(selectedImage, (int)largeImgWidth.Value, watermarkTextbox.Text);
-
-                richTextBox2.Text += $"[{DateTime.UtcNow}] '{selectedImage}' átalakítva\n";
-
-                string thumbnailPath = Path.Combine(folderPath, $"th_{RemoveAccentsAndSpaces(Path.GetFileName(selectedImage))}");
-                string largePath = Path.Combine(folderPath, RemoveAccentsAndSpaces(Path.GetFileName(selectedImage)));
-
-                thumbnail.Save(thumbnailPath);
-                large.Save(largePath);
-
-                richTextBox2.Text += $"[{DateTime.UtcNow}] '{selectedImage}' lementve\n";
-            }
-
-            richTextBox2.Text += $"[{DateTime.UtcNow}] Kész\n";
-        }
+        #endregion
     }
 }
