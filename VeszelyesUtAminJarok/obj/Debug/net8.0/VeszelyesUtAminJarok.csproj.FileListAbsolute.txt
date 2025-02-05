@@ -1,0 +1,14 @@
+D:\11SZF1\CS\VeszelyesUtAminJarok\bin\Debug\net8.0\VeszelyesUtAminJarok.exe
+D:\11SZF1\CS\VeszelyesUtAminJarok\bin\Debug\net8.0\VeszelyesUtAminJarok.deps.json
+D:\11SZF1\CS\VeszelyesUtAminJarok\bin\Debug\net8.0\VeszelyesUtAminJarok.runtimeconfig.json
+D:\11SZF1\CS\VeszelyesUtAminJarok\bin\Debug\net8.0\VeszelyesUtAminJarok.dll
+D:\11SZF1\CS\VeszelyesUtAminJarok\bin\Debug\net8.0\VeszelyesUtAminJarok.pdb
+D:\11SZF1\CS\VeszelyesUtAminJarok\obj\Debug\net8.0\VeszelyesUtAminJarok.GeneratedMSBuildEditorConfig.editorconfig
+D:\11SZF1\CS\VeszelyesUtAminJarok\obj\Debug\net8.0\VeszelyesUtAminJarok.AssemblyInfoInputs.cache
+D:\11SZF1\CS\VeszelyesUtAminJarok\obj\Debug\net8.0\VeszelyesUtAminJarok.AssemblyInfo.cs
+D:\11SZF1\CS\VeszelyesUtAminJarok\obj\Debug\net8.0\VeszelyesUtAminJarok.csproj.CoreCompileInputs.cache
+D:\11SZF1\CS\VeszelyesUtAminJarok\obj\Debug\net8.0\VeszelyesUtAminJarok.dll
+D:\11SZF1\CS\VeszelyesUtAminJarok\obj\Debug\net8.0\refint\VeszelyesUtAminJarok.dll
+D:\11SZF1\CS\VeszelyesUtAminJarok\obj\Debug\net8.0\VeszelyesUtAminJarok.pdb
+D:\11SZF1\CS\VeszelyesUtAminJarok\obj\Debug\net8.0\VeszelyesUtAminJarok.genruntimeconfig.cache
+D:\11SZF1\CS\VeszelyesUtAminJarok\obj\Debug\net8.0\ref\VeszelyesUtAminJarok.dll
